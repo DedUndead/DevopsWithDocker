@@ -17,8 +17,8 @@ Secret message is: 'You can find the source code here: https://github.com/docker
 2021-05-08 14:12:08 +0000 UTC
 Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 2021-05-08 14:12:10 +0000 UTC
-^C
-root@5a8e98ca817b: /usr/src/approot@5a8e98ca817b:/usr/src/app# exit
+
+root@5a8e98ca817b: /usr/src/approot@5a8e98ca817b:/usr/src/app# exit
 
 Script done on 2021-05-08 17:12:18+03:00 [COMMAND_EXIT_CODE="130"]
 
