@@ -1,10 +1,8 @@
 Script started on 2021-05-08 15:15:10+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="160" LINES="48"]
-[?2004h[root@fedora34 1.1]# docker ps -a
-[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+[root@fedora34 1.1]# docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
 2cfd06e1cdb6   nginx     "/docker-entrypoint.…"   38 seconds ago   Exited (0) 27 seconds ago             serene_spence
 f3220942c7f1   nginx     "/docker-entrypoint.…"   40 seconds ago   Exited (0) 27 seconds ago             boring_jang
 5ab7bbc05e74   nginx     "/docker-entrypoint.…"   59 seconds ago   Up 58 seconds               80/tcp    silly_lamport
-[?2004h[root@fedora34 1.1]# [?2004l
-exit
 
 Script done on 2021-05-08 15:15:18+03:00 [COMMAND_EXIT_CODE="0"]
