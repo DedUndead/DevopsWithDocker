@@ -1,4 +1,5 @@
 Script started on 2021-05-08 17:42:43+03:00 [TERM="linux" TTY="/dev/pts/2" COLUMNS="100" LINES="37"]
+
 [root@fedora34 1.4]# docker run --it --rm ubuntu sh -c 'apt update; apt install -y curl; \
 > echo "Input website:"; read website; \
 > echo "Searching.."; sleep 1; curl http:\\website;'
@@ -15,6 +16,7 @@ Searching..
 <h1>Moved Permanently</h1>
 <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
 </body></html>
+
 [root@fedora34 1.4]#
 
 Script done on 2021-05-08 17:44:23+03:00 [COMMAND_EXIT_CODE="0"]
