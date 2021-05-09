@@ -1,0 +1,41 @@
+Script started on 2021-05-09 09:38:59+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+[?2004h[root@fedora34 1.5]# rebootyum install open-vm-tools-devel[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker search hello-world[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Searching.."; sleep 1; curl http://$website;'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13PInput website:"; read website; \[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30@docker run -it --rm ubuntu sh -c 'apt update; apt install -y curl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C--name req ubuntu sh -c 'apt update; apt install -y curl' \ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexec -it secret bash[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crun -d --name secret devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexec -it secret bash[Krun -it --rm --name req ubuntu sh -c 'apt update; apt install -y curl' \ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pubuntu sh -c 'apt update; apt install -y curl;
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pecho "Input website:"; read website[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSearching.."; sleep 1; curl http://$website;'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pdocker search hello-world[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyum install open-vm-tools-devel[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Creboot[K[Kdocker images | s[Kawk {'[K[K'P[K{print #[K$1, $5}[K[K7} [K[K'
+[?2004lawk: cmd. line:1: {print $1, $7
+awk: cmd. line:1:              ^ unexpected newline or end of string
+[?2004h[root@fedora34 1.5]# }[Kdocker images | awk '{print $1, $7'[K}' | sep 1[K'1d'
+[?2004lbash: sep: command not found
+[?2004h[root@fedora34 1.5]# docker images | awk '{print $1, $7}' | sep '1d'[1P '1d'd '1d'
+[?2004ldevopsdockeruh/simple-web-service 83MB
+devopsdockeruh/simple-web-service 15.7MB
+[?2004h[root@fedora34 1.5]# docker images | awk '{print $1, $7}' | sed '1d'[C[C[1@ [1@$[1@3[1@,
+[?2004ldevopsdockeruh/simple-web-service 4e3362e907d5 83MB
+devopsdockeruh/simple-web-service fd312adc88e0 15.7MB
+[?2004h[root@fedora34 1.5]# docker images | awk '{print $1, $3, $7}' | sed '1d'[1P[1@2
+[?2004ldevopsdockeruh/simple-web-service ubuntu 83MB
+devopsdockeruh/simple-web-service alpine 15.7MB
+[?2004h[root@fedora34 1.5]# docker run -d deveopsdockeruh[K[K[K[K[K[K[K[K[K[K[K[Kopsdockeruh/simple-web-service:ubuntu[K[K[K[K[K[Kalpine
+[?2004l19d07c55d050403800ad04fa2e029bdd753c12dfd5799a82c61f5901453a633c
+[?2004h[root@fedora34 1.5]# docker exec -it secret bash[K[K[K[Ksh
+[?2004lError: No such container: secret
+[?2004h[root@fedora34 1.5]# docker exec -it secret sh[1P sh[1P sh[1P sh[1P sh[1P sh[1P sh1 sh9 shd sh
+[?2004l/usr/src/app # [6n/usr/src/app # [Jtail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-09 06:41:41 +0000 UTC
+2021-05-09 06:41:43 +0000 UTC
+2021-05-09 06:41:45 +0000 UTC
+2021-05-09 06:41:47 +0000 UTC
+2021-05-09 06:41:49 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-05-09 06:41:51 +0000 UTC
+2021-05-09 06:41:53 +0000 UTC
+2021-05-09 06:41:55 +0000 UTC
+2021-05-09 06:41:57 +0000 UTC
+2021-05-09 06:41:59 +0000 UTC
+^C
+/usr/src/app # [6nexit
+[?2004h[root@fedora34 1.5]# [?2004l
+exit
+
+Script done on 2021-05-09 09:42:04+03:00 [COMMAND_EXIT_CODE="130"]
