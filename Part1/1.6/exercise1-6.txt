@@ -1,10 +1,12 @@
 Script started on 2021-05-09 09:56:30+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
-[?2004h[root@fedora34 1.6]# docker run  -it [K[K[K[K[K-it decops[K[K[Kv[K[Kviop[K[K[Kopsdockeruh/pull_exercise
-[?2004l[1G[0JGive me the password: [23Gbasics[1G[0JGive me the password: basic[28G[1G[0JGive me the password: basi[27Gcs
+
+[root@fedora34 1.6]# docker run  -it devopsdockeruh/pull_exercise
+
+Give me the password: basics
+
 You found the correct password. Secret message is:
 "This is the secret message"
 
-[?2004h[root@fedora34 1.6]# [?2004l
-exit
+[root@fedora34 1.6]#
 
 Script done on 2021-05-09 09:57:01+03:00 [COMMAND_EXIT_CODE="0"]
