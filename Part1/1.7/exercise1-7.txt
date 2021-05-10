@@ -1,6 +1,8 @@
 Script started on 2021-05-10 12:13:58+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
-[?2004h[root@fedora34 1.7]# docker run --rm web-server
-[?2004l[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[root@fedora34 1.7]# docker run --rm web-server
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
 [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
  - using env:	export GIN_MODE=release
@@ -8,7 +10,7 @@ Script started on 2021-05-10 12:13:58+03:00 [TERM="linux" TTY="/dev/tty1" COLUMN
 
 [GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
-^C[?2004h[root@fedora34 1.7]# [?2004l
-exit
+
+[root@fedora34 1.7]#
 
 Script done on 2021-05-10 12:14:12+03:00 [COMMAND_EXIT_CODE="2"]
