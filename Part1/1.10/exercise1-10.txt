@@ -1,0 +1,8 @@
+Script started on 2021-05-10 13:54:50+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+[?2004h[root@fedora34 1.10]# curl localhost:8080http://localhost:8080[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run --rm -d -p 8080 web-server[C[1@8[1@0[C[1@8[1@0[1@:
+[?2004l28c5ad9041410b872c597f868eb313df2a3d2d08e91eb764f38dc7423e1ef22c
+[?2004h[root@fedora34 1.10]# curl http://localo[Khost:880[K[K080
+[?2004l{"message":"You connected to the following path: /","path":"/"}[?2004h[root@fedora34 1.10]# [?2004l
+exit
+
+Script done on 2021-05-10 13:55:10+03:00 [COMMAND_EXIT_CODE="0"]
