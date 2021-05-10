@@ -1,0 +1,16 @@
+Script started on 2021-05-10 12:47:41+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+[?2004h[root@fedora34 1.8]# dockerrun [K[K[K[K run --rm -it do[K[Kcurler
+[?2004lInput website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+[?2004h[root@fedora34 1.8]# [?2004l
+exit
+
+Script done on 2021-05-10 12:48:02+03:00 [COMMAND_EXIT_CODE="0"]
