@@ -1,8 +1,9 @@
 Script started on 2021-05-12 13:30:46+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
-[?2004h[root@fedora34 1.11]# curl http://localhost:8080[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdocker run -p 8080:8080 -d --rm spring
-[?2004l0d2e02ae0aa0204fffdd5e8da22ee095223757a0f04b6edd60267d777db14753
-[?2004h[root@fedora34 1.11]# curl localhost:8080
-[?2004l<!DOCTYPE html>
+
+[root@fedora34 1.11]# docker run -p 8080:8080 -d --rm spring
+
+[root@fedora34 1.11]# curl localhost:8080
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <title>Spring</title>
@@ -16,7 +17,7 @@ Script started on 2021-05-12 13:30:46+03:00 [TERM="linux" TTY="/dev/tty1" COLUMN
         <p style="width: fit-content; margin: auto;"></p>
     </body>
 </html>
-[?2004h[root@fedora34 1.11]# [?2004l
-exit
+
+[root@fedora34 1.11]# 
 
 Script done on 2021-05-12 13:31:36+03:00 [COMMAND_EXIT_CODE="0"]
