@@ -1,7 +1,7 @@
-# DevopsWithDocker
-GitHub repository for Docker course at University of Helsinki.
+## DevopsWithDocker
+GitHub repository for DevOps with  Docker course from University of Helsinki.
 
-# Part 1: Docker basics
+## Part 1: Docker basics
 [Exercise 1.1](Part1/1.1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Exercise 1.9](Part1/1.2)<br>
 [Exercise 1.2](Part1/1.3) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,3 +18,6 @@ GitHub repository for Docker course at University of Helsinki.
 [Exercise 1.15](Part1/1.14)<br>
 [Exercise 1.8](Part1/1.15) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [DockerHub](https://hub.docker.com/repository/docker/paulbekk/webmonitor)
+
+## Part 2: Docker-compose
+[Exercise 2.1](Part2/2.1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
