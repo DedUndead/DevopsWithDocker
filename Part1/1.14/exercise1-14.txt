@@ -1,0 +1,9 @@
+Script started on 2021-05-14 11:34:11+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
+[?2004h[root@fedora34 1.14]# docker run -d --rm -p 5000:5000 frontend
+[?2004lfae271439dfb1762c1c83aa2d06ca3cbac2cf4ffbe8463e52d73644bfe0e7ba0
+[?2004h[root@fedora34 1.14]# docker run -d --rm -p 5000:5000 frontend[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K8080:8080 backend
+[?2004l52c8591b507e391971791b9b062b2991a1ef8fec2650e5d768d9be7abb4d37ca
+[?2004h[root@fedora34 1.14]# [?2004l
+exit
+
+Script done on 2021-05-14 11:34:38+03:00 [COMMAND_EXIT_CODE="0"]
