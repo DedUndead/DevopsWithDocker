@@ -21,3 +21,4 @@ GitHub repository for DevOps with  Docker course from University of Helsinki.
 
 ## Part 2: Docker-compose
 [Exercise 2.1](Part2/2.1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Exercise 2.2](Part2/2.2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
