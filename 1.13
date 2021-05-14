@@ -1,7 +1,0 @@
-Script started on 2021-05-12 14:02:44+03:00 [TERM="linux" TTY="/dev/tty1" COLUMNS="100" LINES="37"]
-[?2004h[root@fedora34 example-backend]# dcoker[K[K[K[K[Kocker run -p 8080:8080 -h [K[Kd --rm server
-[?2004lab611cbe23e36ac38abe4572a8ce7808b60c67ba6a8d12e93cdd6fec008b75d4
-[?2004h[root@fedora34 example-backend]# [?2004l
-exit
-
-Script done on 2021-05-12 14:03:20+03:00 [COMMAND_EXIT_CODE="0"]
