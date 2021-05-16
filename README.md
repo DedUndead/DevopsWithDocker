@@ -28,4 +28,4 @@ GitHub repository for DevOps with  Docker course from University of Helsinki.
 [Exercise 2.6](Part2/2.6) <br>
 [Exercise 2.7](Part2/2.7) TODO <br>
 [Exercise 2.8](Part2/2.8) <br>
-
+[Exercise 2.9](Part2/2.9) <br>
